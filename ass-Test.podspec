@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "ass-Test"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of ass-Test."
 
   spec.description  = <<-DESC
@@ -23,6 +23,6 @@ asdsdabdhjwbqdbhjqwdqbwbdhjqbwhdjqwbbjd
   spec.requires_arc = true
   spec.ios.deployment_target = '9.0'
   spec.author             = { "Benedict Cumberbatch" => "spikelyuuui@gmail.com" }
-  spec.ios.vendored_frameworks   = '**/*.framework'
+  spec.ios.vendored_frameworks   = 'Source/*.framework'
   spec.ios.frameworks = 'CFNetwork', 'Security'
 end
