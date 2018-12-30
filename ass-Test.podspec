@@ -23,6 +23,6 @@ asdsdabdhjwbqdbhjqwdqbwbdhjqbwhdjqwbbjd
   spec.requires_arc = true
   spec.ios.deployment_target = '9.0'
   spec.author             = { "Benedict Cumberbatch" => "spikelyuuui@gmail.com" }
-  spec.ios.vendored_frameworks   = 'Source/*.framework'
+  spec.ios.vendored_frameworks   = '**/*.framework'
   spec.ios.frameworks = 'CFNetwork', 'Security'
 end
